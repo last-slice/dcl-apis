@@ -7,8 +7,7 @@
   "scripts": {
     "docs": "api-documenter markdown --output-folder docs/ --input-folder temp/",
     "build": "rm -rf temp/ && rollup -c && npm run docs",
-    "link": "npm link && rollup --watch -c ",
-    "test": "jest --detectOpenHandles --silent=false --verbose --colors --runInBand"
+    "link": "npm link && rollup --watch -c "
   },
   "typings": "./dist/index.d.ts",
   "decentralandLibrary": {

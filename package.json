@@ -1,14 +1,13 @@
 {
   "name": "dcl-apis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DCL Public Apis for leaderboards and inventory",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "docs": "api-documenter markdown --output-folder docs/ --input-folder temp/",
     "build": "rm -rf temp/ && rollup -c && npm run docs",
-    "link": "npm link && rollup --watch -c ",
-    "test": "jest --detectOpenHandles --silent=false --verbose --colors --runInBand"
+    "link": "npm link && rollup --watch -c "
   },
   "typings": "./dist/index.d.ts",
   "decentralandLibrary": {
